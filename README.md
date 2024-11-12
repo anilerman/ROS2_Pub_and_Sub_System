@@ -118,12 +118,15 @@ To visualize the data from the publisher and subscriber, you can use the `RQT` p
 
 1. Open `RQT`:
    ```bash
+   source /opt/ros/<distro>/setup.bash
+   ```
+   ```bash
    rqt
    ```
 
-2. Add the `trajectory` (noisy data) and `filtered_trajectory` (filtered data) topics in the `RQT` plot to see real-time data visualization.
+3. Add the `trajectory` (noisy data) and `filtered_trajectory` (filtered data) topics in the `RQT` plot to see real-time data visualization.
 
-3. These are the topic can be shown on RQT:
+4. These are the topic can be shown on RQT:
    -/filtered_trajectory/pose/position/x
    -/filtered_trajectory/pose/position/y
    -/trajectory/pose/position/x
