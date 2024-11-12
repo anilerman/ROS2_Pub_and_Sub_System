@@ -58,7 +58,7 @@ ros2_ws/
 
 3. Build the workspace:
    ```bash
-   cd ~/ros2_ws
+   cd ..
    colcon build --packages-select cpp_pubsub
    ```
    ```bash
