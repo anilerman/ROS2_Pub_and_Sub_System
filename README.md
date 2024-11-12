@@ -44,6 +44,7 @@ ros2_ws/
 
 1. Clone the repository into your `ros2_ws` workspace:
    ```bash
+   mkdir -p ~/ros2_ws/src
    cd ~/ros2_ws/src
    git clone https://github.com/anilerman/ROS2_Pub_and_Sub_System.git cpp_pubsub
    ```
