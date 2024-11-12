@@ -83,32 +83,26 @@ To fully utilize the functionalities of this project, it is recommended to have 
 
 
 ### Running the Nodes
-
-1. Source the ROS2:
-   ```bash
-   source ~/<distro>/setup.bash 
-   ```
-    Change <dıstro> with your setup. In my work it was 'jazzy'
    
-2. In a terminal, run the publisher node:
+1. In a terminal, run the publisher node:
    ```bash
    source /opt/ros/<distro>/setup.bash
    ```
    ```bash
-   source ~/install/setup.bash
+   source ./install/setup.bash
    ```
    ```bash
    ros2 run cpp_pubsub talker
    ```
    `
 
-4. In another terminal, run the subscriber node:
+2. In another terminal, run the subscriber node:
    
    ```bash
    source /opt/ros/<distro>/setup.bash
    ```
    ```bash
-   source ~/install/setup.bash
+   source ./install/setup.bash
    ```
    ```bash
    ros2 run cpp_pubsub listener
