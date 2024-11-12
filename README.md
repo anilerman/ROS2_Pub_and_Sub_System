@@ -44,7 +44,7 @@ ros2_ws/
 
 1. Clone the repository into your `ros2_ws` workspace:
    ```bash
-   cd ~/<yourworkspace>
+   cd ~/ros2_ws/src
    git clone https://github.com/anilerman/ROS2_Pub_and_Sub_System.git cpp_pubsub
    ```
 2. Source the ROS2:
@@ -55,7 +55,7 @@ ros2_ws/
 
 3. Build the workspace:
    ```bash
-   cd ~/<yourworkspace>
+   cd ~/ros2_ws
    colcon build --packages-select cpp_pubsub
    ```
 
