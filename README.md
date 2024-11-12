@@ -61,19 +61,6 @@ ros2_ws/
    ```bash
    colcon build --symlink-install
    ```
-   
-   
- 5. Verify Package Installation
-
-    To verify that the `cpp_pubsub` package is installed, use the following command:
-
-    ```bash
-    ros2 pkg list | grep cpp_pubsub
-    ```
-    If the installation is successful, you should see cpp_pubsub in the output. The text should appear in red (this depends on your   terminal color settings), indicating that the package is recognized by ROS 2.
-   ```bash
-    cpp_pubsub
-   ```
 
 ### Additional Requirements
 
