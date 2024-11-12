@@ -47,20 +47,19 @@ ros2_ws/
    cd ~/ros2_ws/src
    git clone https://github.com/anilerman/ROS2_Pub_and_Sub_System.git cpp_pubsub
    ```
-2. Source the ROS2:
-   ```bash
-   source /opt/ros/<distro>/setup.bash 
-   ```
-    Change <dıstro> with your setup. In my work it was 'jazzy'
-
-3. Build the workspace:
+2. Build the workspace:
    ```bash
    cd ~/ros2_ws
    colcon build --packages-select cpp_pubsub
    ```
 
+3. Source the ROS2:
+   ```bash
+   source /opt/ros/<distro>/setup.bash 
+   ```
+    Change <dıstro> with your setup. In my work it was 'jazzy'
 
- 4. Verify Package Installation
+ 5. Verify Package Installation
 
     To verify that the `cpp_pubsub` package is installed, use the following command:
 
@@ -93,12 +92,32 @@ To fully utilize the functionalities of this project, it is recommended to have 
 
 ### Running the Nodes
 
-1. In a terminal, run the publisher node:
+1. Source the ROS2:
+   ```bash
+   source ~/<distro>/setup.bash 
+   ```
+    Change <dıstro> with your setup. In my work it was 'jazzy'
+   
+2. In a terminal, run the publisher node:
+   ```bash
+   source /opt/ros/jazzy/setup.bash
+   ```
+   ```bash
+   source ~/install/setup.bash
+   ```
    ```bash
    ros2 run cpp_pubsub talker
    ```
+   `
 
-2. In another terminal, run the subscriber node:
+4. In another terminal, run the subscriber node:
+   
+   ```bash
+   source /opt/ros/jazzy/setup.bash
+   ```
+   ```bash
+   source ~/install/setup.bash
+   ```
    ```bash
    ros2 run cpp_pubsub listener
    ```
