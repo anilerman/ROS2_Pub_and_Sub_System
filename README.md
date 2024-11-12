@@ -100,7 +100,7 @@ To fully utilize the functionalities of this project, it is recommended to have 
    
 2. In a terminal, run the publisher node:
    ```bash
-   source /opt/ros/jazzy/setup.bash
+   source /opt/ros/<distro>/setup.bash
    ```
    ```bash
    source ~/install/setup.bash
@@ -113,7 +113,7 @@ To fully utilize the functionalities of this project, it is recommended to have 
 4. In another terminal, run the subscriber node:
    
    ```bash
-   source /opt/ros/jazzy/setup.bash
+   source /opt/ros/<distro>/setup.bash
    ```
    ```bash
    source ~/install/setup.bash
