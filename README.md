@@ -42,10 +42,12 @@ ros2_ws/
 
 ### Building the Package
 
+⚠️⚠️ Before start create a folder which name is "<your_project_name>" on Desktop and right click than click on "Open in Terminal".
+
 1. Clone the repository into your `ros2_ws` workspace:
    ```bash
-   mkdir -p ~/ros2_ws/src
-   cd ~/ros2_ws/src
+   mkdir -p ./ros2_ws/src
+   cd ./ros2_ws/src
    git clone https://github.com/anilerman/ROS2_Pub_and_Sub_System.git cpp_pubsub
    ```
 2. Source the ROS2:
