@@ -58,7 +58,11 @@ ros2_ws/
    cd ~/ros2_ws
    colcon build --packages-select cpp_pubsub
    ```
-
+   ```bash
+   colcon build --symlink-install
+   ```
+   
+   
  5. Verify Package Installation
 
     To verify that the `cpp_pubsub` package is installed, use the following command:
@@ -145,4 +149,4 @@ To visualize the data from the publisher and subscriber, you can use the `RQT` p
 
 2. **Subscriber Node**: Subscribes to the `trajectory` topic, applies a low-pass filter to remove noise, and republishes the filtered data on the `filtered_trajectory` topic.
 
-colcon build --symlink-install
+
